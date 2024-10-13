@@ -1,0 +1,30 @@
+.Query-list{
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #4B4B4B;
+    color:#9797AD;
+    padding:1px 10px 10px 10px;
+    flex-wrap: wrap;
+    margin:10px;
+    
+    
+}
+.time{
+    color: #9797AD;
+    font-family: var(--Title-Small-Font, Roboto);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Body-Small-Line-Height, 10px); /* 100% */
+    letter-spacing: var(--Display-Large-Tracking, -0.25px);
+}
+.query{
+    color: #9797AD;
+    font-family: var(--Title-Small-Font, Roboto);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Body-Small-Line-Height, 16px); /* 80% */
+    letter-spacing: var(--Display-Large-Tracking, -0.25px);
+}

@@ -1,0 +1,112 @@
+body{
+  padding:0;
+  margin:0;
+}
+.App-overall-container{
+  display:flex;
+  flex-direction: row;
+  /* your screen more than bigger use this style */
+  margin-left:40px;
+}
+.Query-History-Container{
+  width: 287px;
+  height: 924px;
+  flex-shrink: 0;
+  background-color: #000;
+}
+.Query-Container{
+  width: 1153px;
+  height: 924px;
+  flex-shrink: 0;
+  background-color: #2F2F2F;
+}
+.Query-title-container{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  background-color: #3C3C3C;
+  border-radius:15px;
+  margin:15px 15px 10px 15px;
+  width: 235px;
+  height: 47px;
+  flex-shrink: 0;
+  
+}
+.Query-title{
+  align-self: center;
+  color: #9797AD;
+  text-align: center;
+  font-family: var(--Title-Small-Font, Roboto);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Body-Small-Line-Height, 16px); /* 66.667% */
+  letter-spacing: var(--Display-Large-Tracking, -0.25px);
+}
+.Query-clock-icon{
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.query-input-container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1067px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 53px;
+  background-color: #3C3C3C;
+  margin:53px;
+}
+.query-output-container{
+  width: 1067px;
+  height: 742px;
+  flex-shrink: 0;
+  border-radius:53px;
+  background-color: #3C3C3C;
+  margin:0px 53px 53px 53px;
+}
+.query-input{
+  width:900px;
+  border:none;
+  font-size: 24px;
+  background-color: transparent;
+  padding-left:40px;
+}
+.query-play-icon{
+  display:flex;
+  padding-right:30px;
+}
+input {
+  /* Remove normal styles */
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+input:hover {
+  /* Remove hover styles */
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.Query-history-list {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:235px;
+  height: 847px;
+  border-radius:15px;
+  background-color: #3C3C3C;
+  margin:15px 0px 0px 15px;
+}
+.submit-btn{
+  background-color:#3C3C3C;
+  color:inherit;
+  border:none;
+  outline: none;
+  margin-right:20px;
+}
